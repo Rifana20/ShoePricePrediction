@@ -40,17 +40,16 @@ A machine learning-powered web application that predicts the price of a shoe bas
 git clone https://github.com/Rifana20/ShoePricePrediction.git
 cd ShoePricePrediction
 
-### 2.Create Virtual Environment
+- 2.Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate  # For Windows
 # OR
 source venv/bin/activate  # For Mac/Linux
 
-### 3.Install Dependencies
+- 3.Install Dependencies
 pip install -r requirements.txt
 
-### 4.Run the App
+-4.Run the App
 streamlit run app.py
 
 
-###
