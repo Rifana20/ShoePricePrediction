@@ -40,7 +40,7 @@ A machine learning-powered web application that predicts the price of a shoe bas
 The model is saved as `shoe_price_model.pkl` using `joblib`.
  My model can explain about 78% of the shoe price variation based on the input features.
  Mean Absolute Error (MAE): 11.76 The model typically makes an error of about 12 dollars per prediction.
-Root Mean Squared Error (RMSE): 18.22
+Root Mean Squared Error (RMSE): 18.22 While most predictions are ~12 dollars off, a few could be off by 18 or more.
 
 ---
 
