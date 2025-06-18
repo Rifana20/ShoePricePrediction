@@ -30,6 +30,19 @@ A machine learning-powered web application that predicts the price of a shoe bas
 - Joblib
 
 ---
+### Model Performance:
+| Metric | Value |
+|--------|-------|
+| R² Score | **0.777** |
+| MAE | **$11.76** |
+| RMSE | **$18.22** |
+
+The model is saved as `shoe_price_model.pkl` using `joblib`.
+ My model can explain about 78% of the shoe price variation based on the input features.
+ Mean Absolute Error (MAE): 11.76 The model typically makes an error of about 12 dollars per prediction.
+Root Mean Squared Error (RMSE): 18.22
+
+---
 
 
 ## 🚀 How to Run Locally
